@@ -17,7 +17,7 @@ Create a bot!
 send ```Your PM``` to @AnonySecBot in telegram
 # Developers
 * [@s0orpion] (https://telegram.me/sc0rpion)
-* [@@RoOt08] (https://telegram.me/@RoOt08) 
+* [@RoOt08] (https://telegram.me/@RoOt08) 
 
 # Commands
 
