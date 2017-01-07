@@ -89,17 +89,14 @@ send ```Your PM``` to @AnonySecBot in telegram
 > [!/]echo [MSG}
 >>>Echo a MSG
 
-> [!/]setname [NAME]
+> ]setname [NAME]
 >>>Set Name For Group
 
-> [!/]edit [TEXT]
+> edit [TEXT]
 >>>Editted MSG
 
-> [!/]view [reply]
+> view [reply]
 >>>View a MSG
-
-> [!/]unmute all 
->>>UnMute All MSG To Group
 
 <b>Powered By @Anonysecurity</b>
 tank to mute team
