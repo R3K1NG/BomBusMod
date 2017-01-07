@@ -1,4 +1,4 @@
-# [BomBusMof](https://github.com/Goblinor/BomBusMod)
+# [BomBusMod](https://github.com/Goblinor/BomBusMod)
 *TG-CLI based broadcasting bot!*
 # Install
 ```
