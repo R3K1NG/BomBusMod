@@ -9,6 +9,7 @@ serpent = require('serpent')
 serp = require 'serpent'.block
 sudo_users = {
     133362226,
+307307140,
 }
 
 function is_sudo(msg)
