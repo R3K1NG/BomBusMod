@@ -23,7 +23,7 @@ send ```Your PM``` to @AnonySecBot in telegram
 
 ### All Commands
 
----------— -  - دستورات با  lk   قفل و با   ul  باز میشوند.
+* dastoorat ba ul baz va lk  ghofl be joz tedadi dastoor.
 ======================================================
 
 🔰 قفل لینک:   lk links              -🔰باز کردن    ul link
