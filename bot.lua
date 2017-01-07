@@ -310,21 +310,21 @@ end
       end
       -------------------------------------------------------
 			--lock links
-groups = redis:sismember('groups',chat_id)
+      groups = redis:sismember('groups',chat_id)
       if input:match("^lk links$") and is_owner(msg) and groups then
-       if redis:get('lock_linkstg:'..chat_id) then
-		tdcli.sendText(chat_id, msg.id_, 0, 1, nil, '🔐 `Links is already Locked`', 1, 'md')
+        if redis:get('lock_linkstg:'..chat_id) then
+	tdcli.sendText(chat_id, msg.id_, 0, 1, nil, '🔐 `Links is already Locked`', 1, 'md')
        else 
-        redis:set('lock_linkstg:'..chat_id, true)
+          redis:set('lock_linkstg:'..chat_id, true)
 		tdcli.sendText(chat_id, msg.id_, 0, 1, nil, '🔐`Links Locked`', 1, 'md')
       end
       end 
-      if input:match("^ul links$")  and is_owner(msg) and groups then
-       if not redis:get('lock_linkstg:'..chat_id) then
-		tdcli.sendText(chat_id, msg.id_, 0, 1, nil, '🔓 `links is already UnLocked`', 1, 'md')
+      if input:match("^ulk links$")  and is_owner(msg) and groups then
+        if not redis:get('lock_linkstg:'..chat_id) then
+	tdcli.sendText(chat_id, msg.id_, 0, 1, nil, '🔓 `links is already UnLocked`', 1, 'md')
        else
          redis:del('lock_linkstg:'..chat_id)
-		tdcli.sendText(chat_id, msg.id_, 0, 1, nil, '🔓 `links UnLocked`', 1, 'md')
+         tdcli.sendText(chat_id, msg.id_, 0, 1, nil, '🔓 `links UnLocked`', 1, 'md')
       end
       end
 	  --lock username
@@ -436,18 +436,18 @@ groups = redis:sismember('groups',chat_id)
       end
       end
 	  --lock edit
-	  groups = redis:sismember('groups',chat_id)
-	  if input:match("^lk edit$") and is_sudo(msg) and groups then
-       if redis:get('edittg:'..chat_id) then
+      groups = redis:sismember('groups',chat_id)
+      if input:match("^lk edit$") and is_owner(msg) and groups then
+        if redis:get('edittg:'..chat_id) then
 		tdcli.sendText(chat_id, msg.id_, 0, 1, nil, '🔐 `Edit is already Locked`', 1, 'md')
        else 
         redis:set('edittg:'..chat_id, true)
 		tdcli.sendText(chat_id, msg.id_, 0, 1, nil, '🔐`Edit  Locked`', 1, 'md')
       end
       end 
-      if input:match("^ul edit$") and is_sudo(msg) and groups then
-       if not redis:get('edittg:'..chat_id) then
-		tdcli.sendText(chat_id, msg.id_, 0, 1, nil, '🔓`Edit is already Not Locked`', 1, 'md')
+      if input:match("^ul edit$") and is_owner(msg) and groups then
+        if not redis:get('edittg:'..chat_id) then
+	tdcli.sendText(chat_id, msg.id_, 0, 1, nil, '🔓`Edit is already Not Locked`', 1, 'md')
        else
          redis:del('edittg:'..chat_id)
 		tdcli.sendText(chat_id, msg.id_, 0, 1, nil, '🔓`Edit  UnLocked`', 1, 'md')
@@ -1038,8 +1038,8 @@ if redis:get('mute_alltg:'..chat_id) and msg and not is_owner(msg) then
      tdcli.deleteMessages(chat_id, {[0] = msg.id_})
    end
    
- if redis:get('lock_linkstg:'..chat_id) and input:match("[Tt][Ee][Ll][Ee][Gg][Rr][Aa][Mm].[Mm][Ee]/") or input:match("[Tt].[Mm][Ee]/") and not is_owner(msg) then
-        tdcli.deleteMessages(chat_id, {[0] = msg.id_})
+    if redis:get('lock_linkstg:'..chat_id) and input:match("[Tt][Ee][Ll][Ee][Gg][Rr][Aa][Mm].[Mm][Ee]/") and not is_owner(msg) then
+      tdcli.deleteMessages(chat_id, {[0] = msg.id_})
       end
 	  
 	        if redis:get('tagtg:'..chat_id) and input:match("#") and not is_owner(msg) then
