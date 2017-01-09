@@ -319,7 +319,7 @@ end
 		tdcli.sendText(chat_id, msg.id_, 0, 1, nil, '🔐`Links Locked`', 1, 'md')
       end
       end 
-      if input:match("^ulk links$")  and is_owner(msg) and groups then
+      if input:match("^ul links$")  and is_owner(msg) and groups then
         if not redis:get('lock_linkstg:'..chat_id) then
 	tdcli.sendText(chat_id, msg.id_, 0, 1, nil, '🔓 `links is already UnLocked`', 1, 'md')
        else
