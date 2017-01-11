@@ -1038,7 +1038,7 @@ if redis:get('mute_alltg:'..chat_id) and msg and not is_owner(msg) then
      tdcli.deleteMessages(chat_id, {[0] = msg.id_})
    end
    
-    local is_link_msg = input:match("[Tt][Ee][Ll][Ee][Gg][Rr][Aa][Mm].[Mm][Ee]/") or input:match("[Tt].[Mm][Ee]/")
+    local is_link_msg = input:match("[Tt][Ee][Ll][Ee][Gg][Rr][Aa][Mm].[Mm][Ee]/") or input:match("[Tt].[Mm][Ee]/") or input:match("[Tt][Ee][Ll][Ee][Gg][Rr][Aa][Mm].[Dd][Oo][Gg]/")
     if redis:get('lock_linkstg:'..chat_id) and is_link_msg and not is_mod(msg) then
       tdcli.deleteMessages(chat_id, {[0] = msg.id_})
 	end
