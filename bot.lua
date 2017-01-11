@@ -674,7 +674,7 @@ local link = 'lock_linkstg:'..chat_id
 
 --mute sticker
 groups = redis:sismember('groups',chat_id)
-if input:match("^lsticker$") and is_owner(msg) and groups then
+if input:match("^lk sticker$") and is_owner(msg) and groups then
        if redis:get('mute_stickertg:'..chat_id) then
 		tdcli.sendText(chat_id, msg.id_, 0, 1, nil, '🔇`Lock sticker is already on`', 1, 'md')
        else
