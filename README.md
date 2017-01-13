@@ -25,31 +25,31 @@ send ```Your PM``` to @AnonySecBot in telegram
 
 ⚙Settings⚙
 دستورات با  lock  شروع می شوند
-🔰Flood:        🔐
-🔰Link:            🔐
-🔰Tag:              🔐
-🔰Username: 🔐
-🔰Forward:    🔐
-🔰Persian:      🔓
-🔰English:       🔓
-🔰reply:           🔓
-🔰Fosh:            🔐
-🔰Edit:              🔐
-🔰Caption:      🔐
-🔰Inline:           🔐
-🔰Emoji:           🔐
+*Flood:        
+*Link:            
+Tag:              
+Username: 
+Forward:    
+Persian:      
+English:       
+reply:           
+Fosh:            
+Edit:              
+Caption:     
+Inline:           
+Emoji:           
 دستورات با mute شروع میشوند
-🔰Chat:             🔊
-🔰Sticker:         🔊
-🔰Gif:                 🔊
-🔰Contact:       🔊
-🔰Photo:          🔊
-🔰Audio:           🔊
-🔰Voice:            🔊
-🔰Video:            🔊
-🔰Document:   🔊
-🔰Text:               🔊
-📞@AnOnySeCuRiTy
+Chat:             
+Sticker:         
+Gif:                 
+Contact:       
+Photo:          
+Audio:           
+Voice:            
+Video:            
+Document:   
+Text:               
+@AnOnySeCuRiTy
 دستورات دیگر ربات:
 1- setowner - delowner
 2-promote   - demote
