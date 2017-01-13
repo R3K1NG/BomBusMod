@@ -23,85 +23,56 @@ send ```Your PM``` to @AnonySecBot in telegram
 
 ### All Commands
 
-* dastoorat ba ul baz va lk  ghofl be joz tedadi dastoor.
-======================================================
-=====================================================
-ادد کردن ربات  و حذف ربات از گروه برای سودو ها
-/add   va   /rem
-======================================================
-
-🔰 قفل لینک:   lk links              -🔰باز کردن    ul link
-🔰قفل تگ #:    lk tag                -🔰باز کردن    ul tag
-🔰قفل  یوزرنیم :  lk user          -🔰باز کردن  ul user
-🔰قفل فوروارد: :   lk fwd          -🔰بازکردن   ul fwd
-🔰قفل  عربی :    lk abc            -🔰بازکردن    ul abc
-🔰قفل انگلیسی :  lk eng          -🔰بازکردن   ul eng
-🔰قفل ریپلای :    lk rep            -🔰بازکردن  ul rep
-🔰قفل فحش:   lk fosh            -🔰بازکردن ul fosh
-🔰قفل ادیت:   lk edit               -🔰بازکردن  ul edit
-🔰قفلر کپشن:    lk cap            -🔰بازکردن  ul cap
-🔰قفل اینلاین:    lk inl              -🔰بازکردن  ul inl
-🔰قفل اموجی:  lk emoji         -🔰بازکردن  ul emoji
-🔰قفل همه:  lk all                    -🔰بازکردن  ul all
-🔰قفل استیکر : lk sticker       -🔰بازکردن  ul sticker
-🔰قفلگیف :    lk gif                 -🔰بازکردن  ul gif
-🔰قفل شماره:  lk contact     -🔰بازکردن ul contact
-🔰قفل عکس:  lk photo         -🔰بازکردن ul phot
-🔰قفل صدا:  lk audio            -🔰بازکردن  ul  audio
-🔰قفل ویس:  lk voice            -🔰بازکردن  ul voice
-🔰قفل ویدیو :  lk video          -🔰بازکردن  ul video
-🔰قفل دامیونت:    lk doc       -🔰بازکردن  ul doc
-🔰قفل تکست :   lk text        -🔰بازکردن  ul trxt
-🔰قفل فلود :   lk flood          -🔰بازکردن  ul flood
-🔰اونر کردن:  setowner        -🔰لغو اونر delowner
-🔰پرومت کردن : promote    -🔰لغو پرومت demote
-🔰سایلنت کردن :   suser       -🔰لغو سایلنت ususer
-                🔰  دیدن سایلنت لیست ها: susers
-                🔰 دستور تنظیمات:  settings 
-==========---------------------------------------------------==========                  
-                                            ANTI SPAM
->[!/]createsuper [group name]
->
->>[!/]createsuperMute
->>>will create a SuperGroup
->>>
->>>_Only works in realms for admins but, sudo users can use it everywhere_
-
->on
->>Test Online
->
->id
->>Send Your ID
-
-
->pin
->>Pinned MSG To GRoup
->
->unpin
->>UnPinned MSG To Group
-
-
-
-> settings
->>>Send Settings MSG
-
-> fwd
->>>Forward a MSG
-
-> username [username]
->>>SetUserName For Group
-
-> [!/]echo [MSG}
->>>Echo a MSG
-
-> ]setname [NAME]
->>>Set Name For Group
-
-> edit [TEXT]
->>>Editted MSG
-
-> view [reply]
->>>View a MSG
+⚙Settings⚙
+دستورات با  lock  شروع می شوند
+🔰Flood:        🔐
+🔰Link:            🔐
+🔰Tag:              🔐
+🔰Username: 🔐
+🔰Forward:    🔐
+🔰Persian:      🔓
+🔰English:       🔓
+🔰reply:           🔓
+🔰Fosh:            🔐
+🔰Edit:              🔐
+🔰Caption:      🔐
+🔰Inline:           🔐
+🔰Emoji:           🔐
+دستورات با mute شروع میشوند
+🔰Chat:             🔊
+🔰Sticker:         🔊
+🔰Gif:                 🔊
+🔰Contact:       🔊
+🔰Photo:          🔊
+🔰Audio:           🔊
+🔰Voice:            🔊
+🔰Video:            🔊
+🔰Document:   🔊
+🔰Text:               🔊
+📞@AnOnySeCuRiTy
+دستورات دیگر ربات:
+1- setowner - delowner
+2-promote   - demote
+3-setname
+4-changename
+5-on 
+6- تست
+7-/del
+8-/echo
+9-/fwd
+10-/view
+11- /createsuper
+12-/tosuper
+13-/joke
+14- /delpro
+15-/changeuser
+16-/username
+17-setules <> rules
+18-setlink <> link
+19-modlist
+20-owner
+بقیشم تونستین تو سورس در بیارید زیادهم لازم نیستن
+گیت نیم ساعت دیگه اپدیت میشود.
 
 <b>Powered By @Anonysecurity</b>
-tank to mute team
+
