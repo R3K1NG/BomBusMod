@@ -22,11 +22,12 @@ send ```Your PM``` to @AnonySecBot in telegram
 # Commands
 
 ### All Commands
-
+```
 ⚙Settings⚙
-دستورات با  lock  شروع می شوند
-*Flood:        
-*Link:            
+دستورات با  lock  
+شروع می شوند
+Flood:        
+Link:            
 Tag:              
 Username: 
 Forward:    
@@ -51,26 +52,27 @@ Document:
 Text:               
 @AnOnySeCuRiTy
 دستورات دیگر ربات:
-1- setowner - delowner
-2-promote   - demote
-3-setname
-4-changename
-5-on 
-6- تست
-7-/del
-8-/echo
-9-/fwd
-10-/view
-11- /createsuper
-12-/tosuper
-13-/joke
-14- /delpro
-15-/changeuser
-16-/username
-17-setules <> rules
-18-setlink <> link
-19-modlist
-20-owner
+ setowner - delowner
+promote   - demote
+setname
+changename
+on 
+ تست
+/del
+/echo
+/fwd
+view
+ /createsuper
+/tosuper
+/joke
+ /delpro
+/changeuser
+/username
+setules <> rules
+setlink <> link
+modlist
+owner
+```
 بقیشم تونستین تو سورس در بیارید زیادهم لازم نیستن
 گیت نیم ساعت دیگه اپدیت میشود.
 
