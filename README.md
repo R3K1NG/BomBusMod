@@ -1,9 +1,9 @@
-# [BomBusMod](https://github.com/Goblinor/BomBusMod)
+# [BomBusMod](https://github.com/R3K1NG/BomBusMod)
 *TG-CLI based broadcasting bot!*
 # Install
 ```
 cd $HOME
-git clone https://github.com/Goblinor/BomBusMod.git
+git clone https://github.com/R3K1NG/BomBusMod
 cd BomBusMod
 chmod +x install.sh
 chmod +x launch.sh
